@@ -49,3 +49,4 @@ class ItemsController < ApplicationController
       params.require(:item).permit(:name, :description)
     end
 end
+# This is the change that i want
